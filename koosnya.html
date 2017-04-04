@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+	<head>
+        <title>W3.CSS Template</title>
+		<script type="text/javascript" src="koosnya.js"></script>
+	</head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="koosnya.css">
 <body>
 
+	
+
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
+  <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding-8 w3-card-2">
     <div class="nav-bar-background"></div>
     <a href="#home" class="w3-margin-left w3-bar-item w3-button"><b></b>Художественная ковка и металлоизделия у Дяди Саши</a>
@@ -21,12 +26,14 @@
     </div>
   </div>
 </div>
+	
+	-->
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="https://kuznica-resheniy.ru/upload/iblock/6cf/6cf6fa04e28f5b757104cea1a92808a1.jpg" alt="Architecture" width="1500" height="800">
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;" id="home">
+  <img class="w3-image" src="https://kuznica-resheniy.ru/upload/iblock/6cf/6cf6fa04e28f5b757104cea1a92808a1.jpg" alt="Architecture" width="100%;">
   <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>У Дяди Саши</b></span><br> <span class="w3-hide-small w3-text-light-grey">Художественная ковка и металоизделия</span></h1>
   </div>
 </header>
 
@@ -34,64 +41,148 @@
 <div class="w3-content w3-padding" style="max-width:1564px">
 
   <!-- Project Section -->
-  <div class="w3-container w3-padding-32" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Projects</h3>
+  <div class="w3-container" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Наши работы</h3>
+	</div>
+	
+	 <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+		  <div class="w3-display-container">
+                <a href="лестницы.html"> 
+                    <img class="round" src="лестница1.jpg" alt="Лестница">
+                    <div class="category-title">Лестницы</div>
+			    </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+		  <a href="перила.html">
+              <img class="round" src="перила1.jpg">
+    	      <div class="category-title">Перила</div>
+		  </a>
+      </div>
+    </div>
+		 
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+	      <a href="перила.html">
+              <img class="round" src="3bHuwsRsBcQ.jpg">
+              <div class="category-title">Балконы</div>
+          </a>
+      </div>
+    </div>
+		 
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+		  <a href="перила.html">
+			  <img class="round" src="решетки1.jpg">
+			  <div class="category-title">Решетки</div>
+		  </a>
+      </div>
+    </div>
   </div>
 
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <img class="round" src="hUgqGMiDdRs.jpg" alt="Лестница">
+		  <a href="лестницы.html">
+			  <img class="round" src="ворота2.jpg" alt="House">
+              <div class="category-title">Ворота</div>
+		  </a> 
+      </div>
+    </div>
+	  
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+		  <a href="лестницы.html">
+			  <img class="round"src="автонавес1.jpg" alt="House">
+			  <div class="category-title">Автонавесы</div>
+		  </a>
+      </div>
+    </div>
+	  
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+		  <a href="лестницы.html">
+			  <img class="round" src="лавочка2.jpg" alt="House">
+			  <div class="w3-display-topleft w3-black w3-padding">Лавочки</div>
+		  </a>
+      </div>
+    </div>
+	  
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+		  <a href="лестницы.html">
+			  <img class="round" src="OGw4M43cxu4.jpg" alt="House">    
+			  <div class="w3-display-topleft w3-black w3-padding">Разное</div>
+		  </a>
+      </div>
+    </div>
+  </div>
+	
+	
+<!--
+	 <div class="w3-row-padding">
+    <div class="col-for-category">
+      <div class="w3-display-container">
+        <img class="round-img" src="лестница1.jpg" alt="Лестница">
         <div class="category-title">Лестницы</div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+		 
+    <div class="col-for-category">
       <div class="w3-display-container">
         <div class="category-title">Перила</div>
-        <img class="round" src="перила1.jpg">
+        <img class="round-img" src="перила1.jpg">
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+		 
+    <div class="col-for-category">
       <div class="w3-display-container">
         <div class="category-title">Балконы</div>
-        <img class="round" src="3bHuwsRsBcQ.jpg">
+        <img class="round-img" src="3bHuwsRsBcQ.jpg">
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+		 
+    <div class="col-for-category">
       <div class="w3-display-container">
         <div class="category-title">Решетки</div>
-        <img class="round" src="решетки1.jpg">
+        <img class="round-img" src="решетки7.jpg">
       </div>
     </div>
-  </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
+		 
+    <div class="col-for-category">
       <div class="w3-display-container">
-        <div class="round">Summer House</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
+        <div class="round">Ворота</div>
+        <img class="round-img" src="ворота2.jpg" alt="House" style="width:99%">
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="col-for-category">
       <div class="w3-display-container">
-        <div class="round">Brick House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
+        <div class="round">Двери</div>
+        <img class="round-img" src="двери1.jpg" alt="House" style="width:99%">
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="col-for-category">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
+        <div class="w3-display-topleft w3-black w3-padding">Автонавесы</div>
+        <img class="round-img" src="автонавес1.jpg" alt="House" style="width:99%">
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="col-for-category">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
+        <img class="round-img" src="/w3images/house3.jpg" alt="House" style="width:99%">
       </div>
     </div>
   </div>
-
+	-->
+	
+	
+	
+	
+	
+	
   <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">About</h3>
