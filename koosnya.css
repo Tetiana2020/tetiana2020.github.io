@@ -159,7 +159,12 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-col.l10{width:83.33333%}
 .w3-col.l11{width:91.66666%}
 .w3-col.l12{width:99.99999%}}
-.w3-content{max-width:980px;margin:auto}
+
+
+/*.w3-content{max-width:980px;margin:auto}*/
+
+
+
 .w3-rest{overflow:hidden}
 .w3-layout-container,.w3-cell-row{display:table;width:100%}.w3-layout-row{display:table-row}.w3-layout-cell,.w3-layout-col,.w3-cell{display:table-cell}
 .w3-layout-top,.w3-cell-top{vertical-align:top}.w3-layout-middle,.w3-cell-middle{vertical-align:middle}.w3-layout-bottom,.w3-cell-bottom{vertical-align:bottom}
@@ -360,34 +365,40 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 
 
+
+
+
+
 .nav-bar-background {text-align: center;}
 
 .round {
-	width: 250px; 
-	height: 250px; 
+	width: 200px; 
+	height: 200px; 
 	border-radius: 50%; 
 	opacity:1;
     transition: .5s ease;
 } 
-.category-title {display: block; text-align: center;}
 
+a {
+	text-decoration: none;
+}
 
+.category-title {
+	display: block; text-align: center;
+}
 
-
-
-	
-	
-	
-	
 .nav-bar-background{text-align: center;}
-.round-img {max-width: 250px; min-width: 150px; max-height: 250px; height: auto; border-radius: 50%;}
+
 .category-title {display: block; text-align: center;}
-.col-for-category {width: 19.5%; float: left;}
+
+.col-for-category {
+	width: 24.5%; float: left;
+}
+
 .w3-display-container:hover .round {opacity: 0.3;}
 
-.col-norm-front {float:left; width: 19.5%;}
+.col-norm-front {float:left; width: 24.5%;}
 	
-
 .site-title-font {
 	font-family: 'RemesloSTD', light;
 	font-weight: 100;
@@ -407,7 +418,23 @@ font-weight: normal;
 src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
 }
 
+.our-works-title {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
 
+.our-works-section {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#projects {
+	background-image: url("corner.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 80px;
+}
 
 
 /*Golden characters
