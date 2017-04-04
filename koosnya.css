@@ -386,8 +386,60 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-display-container:hover .round {opacity: 0.3;}
 
 .col-norm-front {float:left; width: 19.5%;}
+	
+
+.site-title-font {
+	font-family: 'RemesloSTD', light;
+	font-weight: 100;
+	font-size: 75px;
+}
+
+.site-description-font {
+    font-family: 'EB Garamond', serif;
+	padding-bottom: 25px;
+}
 
 
+@font-face {
+font-family: 'RemesloSTD';
+font-style: normal;
+font-weight: normal;
+src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
+}
+
+
+
+
+/*Golden characters
+
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+
+h1, h2 {
+  margin-left: 50px;
+  font-family: 'Arvo';
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
+h1, h2  {
+
+  color:	#D5AD6D; 
+	
+	background: -webkit-linear-gradient(transparent, transparent),
+             -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+	background: -o-linear-gradient(transparent, transparent);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+Golden characters */
 
 
 
