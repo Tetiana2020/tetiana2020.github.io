@@ -359,5 +359,5 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 
 
 .nav-bar-background{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXSG88zCsnEhJXZS0W0Q_aw6D1P5z-_MtOur2KStgj_FlZM233rw); text-align: center;}
-.round {border-radius: 50%;}
+.round {width: 235px; border-radius: 50%;}
 .category-title {text-align: center;}
