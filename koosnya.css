@@ -33,7 +33,7 @@ h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 img{margin-bottom:-5px}a{color:inherit}
 
-.w3-image{max-width:100%; max-height:550px;}
+.w3-image{max-width:1800px; height: auto;}
 
 .w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}
 .w3-table-all{border:1px solid #ccc}
@@ -429,12 +429,14 @@ src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
 	margin: 0 auto;
 	font-family: 'RemesloSTD', light;
 	font-weight: 100;
-	color: #D5AD6D; 
+	color: #621A06; 
+    /*
 	background: -webkit-linear-gradient(transparent, transparent),
              -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
 	background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+    */
 }
 
 .our-works-section {
@@ -449,23 +451,6 @@ src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
 	padding-bottom: 80px;
 }
 
-
-
-
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-
-
-
-
-
-
 .navbar {
      background-image: url(http://novaraduga.com.ua/image/cache/data/Kovka%20new/Ornament/384-2-680x600.jpg);
     background-origin: border-box;
@@ -476,19 +461,6 @@ li a:hover:not(.active) {
     background-position-y: bottom; 
 }
 
-
-
-
-
-
-
-
-#nav {
-    height: 150px;
-    max-width: 1500px;
-    margin: auto;
-    vertical-align: middle;
-}
 
 .nav_button {
     text-align: center;
@@ -573,38 +545,71 @@ li a:hover:not(.active) {
     background-repeat: no-repeat;
 }
 
-.try-image {
-    position: relative;
-}
-
 .menu-button {
     position: absolute;
     
 }
 
+#nav {
+    height: 150px;
+    max-width: 1700px;
+    margin: auto;
+    vertical-align: middle;
+}
 
 .nav-box {
     display: inline-block;
-    width: 19.5%;
     position: relative;
+    width: 19.5%;
+    height: auto;
 }
 
+.nav-box-active {
+    display: inline-block;
+    position: relative;
+    width: 19.5%;
+    height: auto;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
 
 .menu-item-name {
     position: absolute;
     width: 100%;
-    height: 100%;
-    vertical-align: middle;
+    height: auto;
     text-align: center;
-    top: 40%;
-    left: 4%;
+    bottom: 70%;
     font-weight: 300;
     font-size: 20px;
     text-decoration: none;
-    color: #D5AD6D; 
-	background: -webkit-linear-gradient(transparent, transparent),
-                -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
-	background: -o-linear-gradient(transparent, transparent);
-	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #311306; 
 }  
+
+.menu-item-name-active {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    color: #311306; 
+    bottom: 30%;
+
+}  
+
+.menu-frame-active {
+    position: relative;
+    width: 100%;
+    height: auto;
+    bottom: -10px;
+}
+
+.menu-frame {
+    width: 95%;
+    height: auto;
+    position: relative;
+    bottom: -20px;
+}
