@@ -1,5 +1,4 @@
-    
- /* W3.CSS 3.01 Mar 2017 by Jan Egil and Borge Refsnes */
+/* W3.CSS 3.01 Mar 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -27,15 +26,12 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 ::-webkit-input-placeholder{color:inherit;opacity:0.54}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 /* End extract */
-html,body{font-family:'EB Garamond', serif; font-size:15px;line-height:1.5}html{overflow-x:hidden}
+html{overflow-x:hidden}
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 img{margin-bottom:-5px}a{color:inherit}
-
-.w3-image{max-width:2000px; height: auto; border-bottom: none;}
-
 .w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}
 .w3-table-all{border:1px solid #ccc}
 .w3-bordered tr,.w3-table-all tr{border-bottom:1px solid #ddd}
@@ -369,8 +365,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .nav-bar-background {text-align: center;}
 
 .round {
-	width: 210px; 
-	height: 210px; 
+	width: 211px; 
+	height: 211px; 
 	border-radius: 50%; 
 	opacity:1;
     transition: .5s ease;
@@ -398,7 +394,14 @@ a {
 
 .w3-display-container:hover .round {opacity: 0.3;}
 
-.col-norm-front {display: table; float:left; width: 24.5%; margin-left: 7px; margin-right: 7px;}
+.col-norm-front {
+    display: table; 
+    float: left; 
+    width: 11%; 
+/*    margin-left: 7px; 
+    margin-right: 7px;*/
+    margin: 0 auto;
+}
 	
 .site-title-font {
 	font-family: 'EB Garamond', serif;
@@ -437,8 +440,10 @@ src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
 }
 
 .our-works-section {
-	width: 70%;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0 3.5%;
+    padding-top: 25px;
+    display: inline-block;
 }
 
 #projects {
@@ -446,6 +451,7 @@ src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	padding-bottom: 80px;
+    background-size: 300px 300px;
 }
 
 .navbar {
@@ -548,7 +554,7 @@ src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
 }
 
 #nav {
-    height: 150px;
+    height: 140px;
     max-width: 1500px;
     margin: auto;
     vertical-align: middle;
@@ -584,10 +590,10 @@ li a:hover:not(.active) {
     height: auto;
     text-align: center;
     bottom: 70%;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 25px; 
     text-decoration: none;
-    color: #621A06;
+    color: #551909;
     font-family: 'EB Garamond', serif;
 }  
 
@@ -596,10 +602,10 @@ li a:hover:not(.active) {
     width: 100%;
     height: auto;
     text-align: center;
-    font-weight: 300;
+    font-weight: bolder;
     font-size: 25px;
     text-decoration: none;
-    color: #621A06; 
+    color: #551909; 
     bottom: 30%;
     font-family: 'EB Garamond', serif;
 }  
@@ -623,12 +629,8 @@ li a:hover:not(.active) {
 }
 
 .after-nav-section {
-    max-width: 2000px;
+    width: 100%;
     display: inline-block;
-    /*background-image: url(back3.jpg);
-    background-repeat: repeat;
-    background-size: cover;
-    background-blend-mode:hard-light;*/
     font-family: 'EB Garamond', serif;
     font-size: 24px;
     background-color: rgba(48, 14, 13, 0.4);
@@ -644,38 +646,59 @@ li a:hover:not(.active) {
     top: 0;
     left: 0;
     right: 0;
-    
-
 } 
 
 .categories-section {
-    width:49%; 
-    float: left;
+    width:100%; 
 }
 
 #about {
-    float: right;
-    width: 49%;
+    width: 100%;
+    font-family: 'EB Garamond', serif;
+    color: #551909; 
+    font-weight: 200;
+    font-size: 24px;
+
+
+
+   
 }
 
-.about-us-title {
+.categories-title {
     text-align: center;
 	font-size: 75px;
-	width: 80%;
-	margin: 0 auto;
     font-family: 'EB Garamond', serif;
 	font-weight: 100;
-	color: #621A06; 
-}
-
-.title-border-bottom {
-    
-    border-bottom: 5px solid }
-    border-image: url(wires.jpg);
+	color: #551909; 
+    width:30%; 
+    margin: auto;
+    border-bottom: 4px solid }
     border-left: none;
     border-right: none;
     border-top: none;
-    border-style: solid;
-
+    
     /*    <div style="width: 2000px; height: 40px;"><img style="width: 2000px; height: 50px;" src="wires.jpg"></div>*/
+}
+
+.header-image {
+    max-width:2000px; 
+    max-height: 590px; 
+    border-bottom: none;}
+
+.about-us-title {
+      text-align: center;
+	font-size: 75px;
+    font-family: 'EB Garamond', serif;
+	font-weight: 100;
+	color: #551909; 
+    width:30%; 
+    margin: auto;
+    border-bottom: 4px solid }
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+div.about-us-text {
+    width: 50%;
 }
