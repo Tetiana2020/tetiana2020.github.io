@@ -371,6 +371,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 	opacity:1;
     transition: .5s ease;
 	margin: 0 auto;
+    display: block;
 } 
 
 a {
@@ -397,7 +398,7 @@ a {
 .col-norm-front {
     display: inline-block;
     position: relative;
-    width: 13.2%; 
+    width: 19.5%; 
 /*    margin-left: 7px; 
     margin-right: 7px;*/
     margin: 0 auto;
@@ -441,7 +442,6 @@ src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
 
 .our-works-section {
 	width: 100%;
-	margin: 0 3.5%;
     padding-top: 25px;
     display: inline-block;
 }
@@ -663,12 +663,13 @@ li a:hover:not(.active) {
 }
 
 #about {
-    width: 90%;
+    width: 70%;
     font-family: 'EB Garamond', serif;
     color: #551909; 
     font-weight: 200;
     font-size: 24px;
     margin: auto;
+    float: right;
    
 }
 
@@ -695,7 +696,7 @@ li a:hover:not(.active) {
     font-family: 'EB Garamond', serif;
 	font-weight: 100;
 	color: #551909; 
-    width:30%; 
+    width: 70%; 
     margin: auto;
     border-bottom: 4px solid }
     border-left: none;
@@ -749,11 +750,10 @@ div.about-us-text {
 }
 
 .cat-page-side-col {
-    display: table; 
+    display: inline-table; 
     width: 11%; 
-/*    margin-left: 7px; 
-    margin-right: 7px;*/
-    margin: 0 auto;
+    margin-left: 7px; 
+    float: right;
 }
 
 .cat-page-photo-slider {
@@ -792,4 +792,21 @@ float: left;
     height: 100%;
         width: auto;
    
+}
+
+
+.main-cat-side {
+    width: 20%;
+    float: left;
+    background-color: rgba(48, 14, 13, 0.4); 
+    display: inline-block;
+    
+}
+
+.main-side-col-norm-front {
+    margin: auto;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    margin-top: 100px;
 }
