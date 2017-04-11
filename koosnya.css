@@ -444,6 +444,13 @@ src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
 	margin: 0 3.5%;
     padding-top: 25px;
     display: inline-block;
+}
+
+.cat-page-our-works-section {
+	width: 100%;
+	margin: 0 3.5%;
+    padding-top: 25px;
+    display: inline-block;
     background-image: url(long2.png); 
     background-repeat: repeat-y;
 }
