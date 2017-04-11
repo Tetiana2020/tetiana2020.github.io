@@ -183,7 +183,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-justify{text-align:justify!important}.w3-center{text-align:center!important}
 .w3-display-topleft{position:absolute;left:0;top:0}.w3-display-topright{position:absolute;right:0;top:0}
 .w3-display-bottomleft{position:absolute;left:0;bottom:0}.w3-display-bottomright{position:absolute;right:0;bottom:0}
-.w3-display-middle{position:absolute;top:40%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-display-middle{position:absolute;top:20%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
 .w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 .w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
 .w3-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
@@ -294,7 +294,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#009688!important}
 .w3-yellow,.w3-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
 .w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
-.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#100!important}
+.w3-hover-black:hover{color:#fff!important;background-color:#100!important}
 .w3-grey,.w3-hover-grey:hover,.w3-gray,.w3-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
 .w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
 .w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
@@ -444,6 +444,8 @@ src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
 	margin: 0 3.5%;
     padding-top: 25px;
     display: inline-block;
+    background-image: url(long2.png); 
+    background-repeat: repeat-y;
 }
 
 #projects {
@@ -653,14 +655,12 @@ li a:hover:not(.active) {
 }
 
 #about {
-    width: 100%;
+    width: 90%;
     font-family: 'EB Garamond', serif;
     color: #551909; 
     font-weight: 200;
     font-size: 24px;
-
-
-
+    margin: auto;
    
 }
 
@@ -672,10 +672,6 @@ li a:hover:not(.active) {
 	color: #551909; 
     width:30%; 
     margin: auto;
-    border-bottom: 4px solid }
-    border-left: none;
-    border-right: none;
-    border-top: none;
     
     /*    <div style="width: 2000px; height: 40px;"><img style="width: 2000px; height: 50px;" src="wires.jpg"></div>*/
 }
@@ -686,7 +682,7 @@ li a:hover:not(.active) {
     border-bottom: none;}
 
 .about-us-title {
-      text-align: center;
+    text-align: center;
 	font-size: 75px;
     font-family: 'EB Garamond', serif;
 	font-weight: 100;
@@ -701,4 +697,91 @@ li a:hover:not(.active) {
 
 div.about-us-text {
     width: 50%;
+    
+}
+
+.section-title {
+	font-size: 65px;
+    font-family: 'EB Garamond', serif;
+	font-weight: 100;
+	color: #551909; 
+    margin: auto;
+    border-bottom: 4px solid }
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+
+.categories-side-bar {
+    width: 20%;
+    display: inline-block;
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    background-color: rgba(48, 14, 13, 0.4);
+    float: right;
+    background-image: url(long2.png);
+    background-repeat: repeat-y;
+    
+}
+
+#category-page-about {
+    width: 60%;
+    font-family: 'EB Garamond', serif;
+    color: #551909; 
+    font-weight: 200;
+    font-size: 24px;
+    margin-left: 10%;
+   float: left;
+}
+
+#categories-page-content {
+    width: 100%;
+    display: inline-block;
+}
+
+.cat-page-side-col {
+    display: table; 
+    width: 11%; 
+/*    margin-left: 7px; 
+    margin-right: 7px;*/
+    margin: 0 auto;
+}
+
+.cat-page-photo-slider {
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 10%;
+    float: left;
+}
+
+.cat-page-categories-main-title {
+     text-align: center;
+	font-size: 75px;
+    font-family: 'EB Garamond', serif;
+	font-weight: 100;
+	color: #551909; 
+    margin-left: 10%;
+    width: 60%;
+float: left;
+    border-bottom: 4px solid }
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.cat-page-round {
+    width: 150px; 
+	height: 150px; 
+	border-radius: 50%; 
+	opacity:1;
+    transition: .5s ease;
+	margin: 0 auto;
+}
+
+
+.cat-page-side-or {
+    height: 100%;
+        width: auto;
+   
 }
