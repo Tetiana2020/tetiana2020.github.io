@@ -183,7 +183,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-justify{text-align:justify!important}.w3-center{text-align:center!important}
 .w3-display-topleft{position:absolute;left:0;top:0}.w3-display-topright{position:absolute;right:0;top:0}
 .w3-display-bottomleft{position:absolute;left:0;bottom:0}.w3-display-bottomright{position:absolute;right:0;bottom:0}
-.w3-display-middle{position:absolute;top:20%;left:20%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-display-middle{position:absolute;top:30%;left:20%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
 .w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 .w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
 .w3-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
@@ -567,7 +567,7 @@ src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
 
 #nav {
     height: 110px;
-    max-width: 1500px;
+    max-width: 1100px;
     margin: auto;
     vertical-align: middle;
 }
@@ -581,14 +581,15 @@ src: local('RemesloSTD'), url('RemesloSTD.woff') format('woff');
 .nav-box {
     display: inline-block;
     position: relative;
-    width: 19.5%;
     height: auto;
+    margin-left: 2%;
+    top: 10%;
 }
 
 .nav-box-active {
     display: inline-block;
     position: relative;
-    width: 19.5%;
+    width: 25.5%;
     height: auto;
 }
 
@@ -598,7 +599,7 @@ li a:hover:not(.active) {
 
 .menu-item-name {
     position: absolute;
-    width: 100%;
+    width: 70%;
     height: auto;
     text-align: center;
     bottom: 100%;
@@ -607,6 +608,7 @@ li a:hover:not(.active) {
     text-decoration: none;
     color: #551909;
     font-family: 'EB Garamond', serif;
+    margin-left: 12%;
 }  
 
 .menu-item-name-active {
@@ -618,7 +620,7 @@ li a:hover:not(.active) {
     font-size: 25px;
     text-decoration: none;
     color: #551909; 
-    bottom: 40%;
+    bottom: 35%;
     font-family: 'EB Garamond', serif;
 }  
 
@@ -629,13 +631,15 @@ li a:hover:not(.active) {
 }
 
 .menu-frame {
-    width: 95%;
+    width: 70%;
     height: auto;
     position: relative;
+    margin-left: 12%;
 }
 
 .decorated-letter {
     font-family: 'RemesloSTD', light;
+    font-size: 100px;
 }
 
 .after-nav-section {
@@ -670,6 +674,8 @@ li a:hover:not(.active) {
     font-size: 24px;
     margin: auto;
     float: right;
+    margin-left: 5%;
+    margin-right: 5%;
    
 }
 
@@ -757,10 +763,8 @@ div.about-us-text {
 }
 
 .cat-page-photo-slider {
-    width: 60%;
+    width: 100%;
     margin-top: 50px;
-    margin-left: 10%;
-    float: left;
 }
 
 .cat-page-categories-main-title {
@@ -796,7 +800,7 @@ float: left;
 
 
 .main-cat-side {
-    width: 20%;
+    width: 19%;
     float: left;
     background-color: rgba(48, 14, 13, 0.4); 
     display: inline-block;
@@ -810,3 +814,19 @@ float: left;
     width: 100%;
     margin-top: 100px;
 }
+
+#contact {
+    width:70%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cat-page-nav-box {
+        display: inline-block;
+    position: relative;
+    height: auto;
+    margin-left: 2%;
+    top: 40%;
+}
+
